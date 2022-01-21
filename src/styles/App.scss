@@ -1,0 +1,224 @@
+.move-head-main-container {
+  background-color: #032541;
+  height: 70px;
+}
+
+.move-head-main-container .nav-item .nav-link {
+  color: #fff !important;
+  font-weight: 600 !important;
+  font-size: 14px;
+}
+
+.move-head-main-container .navbar-brand {
+  padding-top: 0rem !important;
+}
+
+.move-head-main-container .container-fluid {
+  width: 82%;
+}
+.move-head-main-container .language-label {
+  width: 28px;
+  height: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  border: 1px solid #fff;
+  border-radius: 3px;
+  padding: 3px 5px;
+  transition: linear 0.1s;
+  color: #fff;
+  font-weight: 600;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.move-head-main-container .right-container .items {
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.move-head-main-container .right-container .item-search {
+  width: 32px;
+}
+.bell-show {
+  background-image: url(../assets/bell.svg);
+  filter: invert(1);
+  min-width: 1em;
+  min-height: 1em;
+  width: 1em;
+  height: 1em;
+  font-size: 26px;
+}
+.page-heading {
+  margin: 20px 0;
+}
+.leftNavContailer .sideNav {
+  min-width: 260px;
+  width: 260px;
+  border: 1px solid #e3e3e3;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  overflow: hidden;
+  border-radius: 10px;
+  margin-bottom: 25px;
+}
+.leftNavContailer .sideNav .head {
+  font-weight: 600;
+  font-size: 15px;
+}
+.leftNavContailer .sideNav .itemGroup {
+  padding: 8px 16px;
+  width: 100%;
+  justify-content: space-between;
+  flex-wrap: nowrap;
+  align-items: center;
+}
+
+.leftNavContailer .sideNav .item-det label {
+  font-weight: 300;
+  margin-bottom: 4px;
+}
+.leftNavContailer .sideNav .item-det {
+  border-top: 1px solid #e3e3e3;
+}
+.leftNavContailer .sideNav .sort-select {
+  width: 100%;
+}
+.filters .radio-btn {
+  font-size: 13px;
+  font-weight: 500;
+}
+.filters .check-box {
+  font-size: 13px;
+  font-weight: 500;
+}
+.filters .check-box input {
+  vertical-align: middle;
+}
+
+.filters .form-items div {
+  margin-bottom: 16px;
+}
+.filters .itemLabel {
+  display: inline-block;
+  width: 25%;
+}
+.dispBlk {
+  display: inline-block !important;
+}
+.widt-75 {
+  width: 75%;
+}
+.item-tag-disply .tag {
+  display: inline-block;
+  padding: 8px;
+  border: 1px solid #e3e3e3;
+  margin: 4px;
+  border-radius: 39px;
+  font-size: 12px;
+  font-weight: 500;
+  cursor: pointer;
+}
+.item-tag-disply .tag.active {
+  background-color: #7ca3ea;
+  color: #fff;
+}
+.item-tag-disply .tag:hover {
+  background-color: #7ca3ea;
+  color: #fff;
+}
+
+div.page_wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.movieListContainer .items {
+  display: inline-block;
+  width: 17%;
+  border: 1px solid #e3e3e3;
+  margin: 14px;
+  overflow: visible;
+  min-height: 370px;
+  vertical-align: top;
+}
+.movieListContainer .items img {
+  width: 100%;
+  height: 100%;
+}
+.movieListContainer .items {
+  position: relative;
+}
+
+.movieListContainer .items .movie-rate-block {
+  position: absolute;
+  background-color: #000;
+  color: #fff;
+  padding: 10px;
+  right: -14px;
+  top: 210px;
+  border-radius: 50%;
+  display: inline-block;
+  width: 44px;
+  text-align: center;
+  height: 44px;
+}
+
+.moveDetails {
+  margin: 16px;
+  font-size: 1em;
+}
+
+.moveDetails .movieTitle {
+  font-weight: 700;
+}
+.moveDetails .movieRelaeseDate {
+  color: rgba(0, 0, 0, 0.6);
+}
+.datePicker {
+  width: 75% !important;
+}
+.datePicker input {
+  width: 100%;
+}
+
+.footer .main-container {
+  background-color: #03223d;
+}
+.footer .main-container {
+  color: #fff;
+  margin-top: 14px;
+}
+.footer .main-container .content-container {
+  width: 63%;
+  margin: 0 auto;
+}
+
+.footer .main-container .content-container .logo {
+  width: 170px;
+}
+.footer .main-container .content-container .row {
+  padding: 80px 0px;
+}
+
+ul {
+  list-style-type: none;
+}
+
+.toggleArrow {
+  display: block;
+  float: right;
+  width: 19px;
+  height: 19px;
+  background-image: url(../assets/toggle.svg);
+}
+.toggleArrow.active {
+  transform: rotate(90deg);
+}
+
+.hidden {
+  display: none;
+}
